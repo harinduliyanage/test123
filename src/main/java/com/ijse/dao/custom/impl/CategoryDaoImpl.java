@@ -56,7 +56,6 @@ public class CategoryDaoImpl implements CategoryDaoCustom {
         Session s= sessionFactory.openSession();
         s.update(category);
         s.close();
-        System.out.println("Called");
         return true;
     }
 }
